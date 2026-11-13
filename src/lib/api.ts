@@ -1,6 +1,6 @@
 const API_BASE_URL =
     import.meta.env.VITE_API_BASE_URL ||
-    "http://localhost:5001/api";
+    "https://caringnesthospital.onrender.com/api";
 
 type ApiOptions = {
     method?: "GET" | "POST" | "PATCH" | "PUT" | "DELETE";
